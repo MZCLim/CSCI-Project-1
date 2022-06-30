@@ -1,0 +1,101 @@
+<!--
+    Matthew Zachary C. Lim, 202954
+    June 23, 2022
+
+    I/we certify that this submission complies with the DISCS Academic
+    Integrity Policy.
+
+    If I/we have discussed my/our HTML code with anyone other than
+    my/our instructor(s), my/our groupmate(s), the teaching assistant(s),
+    the extent of each discussion has been clearly noted along with a
+    proper citation in the comments of my/our program.
+
+    If any HTML code or documentation used in my/our program was obtained
+    from another source, either modified or unmodified, such as a textbook,
+    website, or another individual, the extent of its use has been clearly
+    noted along with a proper citation in the comments of my/our program.
+-->
+
+<!--
+    http://css3.bradshawenterprises.com/cfimg/#cfimg1
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>favorite_place</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Matthew's Website</h1>
+    </header>
+
+    <div class="menu">
+      <h2>Menu</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Index</a></li>
+          <li><a href="favorite_place.html">Favorite Place</a></li>
+        </ul>
+      </nav>
+    </div>
+
+      <h2>Favorite Place</h2>
+
+        <div class="content">
+          <section id="hong_kong">
+            <h3>Hong Kong</h3>
+            <p>When I was young, one of the countries we'd always visit would be
+            Hong Kong. I always enjoyed our trips to Hong Kong as we'd get to spend
+            time as a family and eat a lot of great food. Riding the train in Hong
+            Kong was also nostalgic since it felt like every time I went there it
+            would feel slightly different but still feel familiar as we'd been there
+            a couple times already. Food in Hong Kong is really good. Service their
+            is also very fast, like people there just operate quicker. Sometimes it
+            might feel rude with how they treat you but I think it's really just
+            how they do stuff there in Hong Kong. </p>
+          </section>
+        </div>
+
+        <div id="cf3">
+          <img class="bottom" src="images/hong_kong.jpg">
+          <img class="top" src="images/hong_kong2.jpg">
+        </div>
+
+        <div class="content">
+          <section id="taiwan">
+            <h3>Taiwan</h3>
+            <p>Taiwan was also one of the countries I would also visit. Either it
+            was with my family or with my friends on a study tour. Food there is
+            also great. It feels like I could eat anything there and it would still
+            feel like I'm eating good quality food. Although, there was a time when
+            I was with my parents and we went to this food stall that had so many
+            people lining up just to eat. So we also tried it, and at first I felt
+            there was something off with the food but I just ate it either way.
+            After a bit, my dad asked what we were eating and my mom said it was
+            intestines. Needless to say, my sister, my dad, and I were quite shocked
+            that we were eating intestines and even more shocked that there were
+            that many people lined up for it. </p>
+          </section>
+        </div>
+
+        <div id="cf3">
+          <img class="bottom" src="images/taiwan.jpg">
+          <img class="top" src="images/taiwan2.jpg">
+        </div>
+
+
+    <footer>
+      <p>&copy; 2022. All rights reserved. Powered by CSCI 22.</p>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Disclaimer</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
