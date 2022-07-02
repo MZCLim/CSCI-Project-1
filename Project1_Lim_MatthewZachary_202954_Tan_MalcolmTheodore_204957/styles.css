@@ -262,3 +262,26 @@ footer {
   line-height: 30px;
   margin-left: 87px
 }
+
+.addorderfood{
+  grid-column: 1 / 3;
+  font-family: monospace;
+}
+
+.addorder{
+  display: block;
+}
+
+.submitorder{
+  position: relative;
+  top: 90px;
+  margin-left: -730px;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 8px;
+  min-width: 130px;
+  
+}
