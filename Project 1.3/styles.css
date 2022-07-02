@@ -375,6 +375,8 @@ footer {
 }
 
 .edit_cus {
+   position: relative;
+  top: 50px;
   color: black;
   font-size: 14px;
   text-align: center;
@@ -385,6 +387,4 @@ footer {
   cursor: pointer;
   border-radius: 8px;
   min-width: 120px;
-  position: relative;
-  top: 50px;
 }
