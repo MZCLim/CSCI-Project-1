@@ -440,3 +440,37 @@ footer {
   border-radius: 8px;
   min-width: 120px;
 }
+
+.order_orders {
+  display: grid;
+  grid-template-columns: 250px 100px 90px;
+  grid-template-rows: 30px 70px;
+}
+
+
+.ordername {
+  grid-column: 1 / 2;
+  font-family: monospace;
+
+}
+
+.orderquantity {
+  grid-column: 2 / 3;
+  font-family: monospace;
+
+}
+
+.orderprice {
+  grid-column: 3 / 4;
+  font-family: monospace;
+  text-align: right;
+  
+
+}
+
+.ordertotalprice {
+  grid-column: 1 / 4;
+  font-family: monospace;
+  text-align: right;
+
+}
