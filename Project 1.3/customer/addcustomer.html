@@ -1,0 +1,120 @@
+<!--
+    Matthew Zachary C. Lim, 202954
+    Malcolm Theodore T. Tan, 204957
+    June 30, 2022
+
+    I/we certify that this submission complies with the DISCS Academic
+    Integrity Policy.
+
+    If I/we have discussed my/our HTML code with anyone other than
+    my/our instructor(s), my/our groupmate(s), the teaching assistant(s),
+    the extent of each discussion has been clearly noted along with a
+    proper citation in the comments of my/our program.
+
+    If any HTML code or documentation used in my/our program was obtained
+    from another source, either modified or unmodified, such as a textbook,
+    website, or another individual, the extent of its use has been clearly
+    noted along with a proper citation in the comments of my/our program.
+-->
+
+<!--
+    http://css3.bradshawenterprises.com/cfimg/#cfimg1
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Add Customer Form</title>
+  </head>
+
+  <body class="addcusbody">
+    <header>
+      <div>
+        <a href="../signin.html" class="sign_in">Sign-In</a>
+      </div>
+
+      <img src="../images/heat_eats.jpg" class="Title">
+      <nav>
+        <a href="../index.html" class="hovani">Home</a>
+
+        <div class="dropdown">
+        <a href="addcustomer.html" class="hovani">Customers</a>
+          <div class="dropdown-content">
+            <a href="addcustomer.html" class="drpdwncont">Add Customer</a>
+            <a href="customers.html" class="drpdwncont">Customers List</a>
+            <a href="customer1.html" class="drpdwncont">Customer Details</a>
+            <a href="editcustomer1.html" class="drpdwncont">Edit Customer</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+        <a href="../food/addfood.html" class="hovani">Foods</a>
+          <div class="dropdown-content">
+            <a href="../food/addfood.html" class="drpdwncont">Add Food</a>
+            <a href="../food/foods.html" class="drpdwncont">Foods List</a>
+            <a href="../food/food1.html" class="drpdwncont">Food Details</a>
+            <a href="../food/editfood1.html" class="drpdwncont">Edit Food</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+        <a href="../orders/addorder.html" class="hovani">Orders</a>
+          <div class="dropdown-content">
+            <a href="../orders/addorder.html" class="drpdwncont">Add Order</a>
+            <a href="../orders/orders.html" class="drpdwncont">Orders List</a>
+            <a href="../orders/order1.html" class="drpdwncont">Order Details</a>
+            <a href="../orders/editorder1.html" class="drpdwncont">Edit Order</a>
+          </div>
+        </div>
+
+      </nav>
+    </header>
+
+      <form class="addcus" action="">
+        <h1>Add Customer</h1>
+        <div>
+          <label for="fname">Firstname:</label>
+          <input class="addcusto" type="text" id="fname" name="fname">
+        </div>
+        <div>
+          <label for="lname">Surname:</label>
+          <input class="addcusto" type="text" id="lname" name="lname">
+        </div>
+        <div>
+          <label for="address">Address:</label>
+          <input class="addcusto" type="text" id="address" name="address">
+        </div>
+        <div>
+          <label for="city">City:</label>
+          <input class="addcusto" type="text" id="city" name="city">
+        </div>
+        <div>
+          <label for="province">Province:</label>
+          <input class="addcusto" type="text" id="province" name="province">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input class="addcusto" type="text" id="email" name="email">
+        </div>
+        <div>
+          <label for="contactno">Contact No:</label>
+          <input class="addcusto" type="text" id="contactno" name="contactno">
+        </div>
+        <div>
+          <input class="submit_customer" type="submit" value="Add Customer">
+        </div>
+      </form>
+
+  </body>
+  <footer>
+    <p>&copy; 2022. All rights reserved. Powered by CSCI 22.</p>
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Disclaimer</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+  </footer>
+</html>
